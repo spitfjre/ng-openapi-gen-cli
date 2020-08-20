@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
+const ngOpenapiGenCliParser = require('./ng-openapi-gen-cli-parser.js');
+
+ngOpenapiGenCliParser.parse();

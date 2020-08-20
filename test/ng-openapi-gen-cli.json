@@ -1,0 +1,11 @@
+{
+  "$schema": "../ng-openapi-gen-cli-schema.json",
+  "configurations": [
+    {
+      "defaultLocalUrl": "http://localhost:8080/v2/api-docs",
+      "defaultUrl": "https://petstore3.swagger.io/api/v3/openapi.json",
+      "name": "test",
+      "openapiGen": "./test/ng-openapi-gen.json"
+    }
+  ]
+}
