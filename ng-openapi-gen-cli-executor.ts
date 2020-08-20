@@ -45,7 +45,7 @@ const update = (apis: Configuration[], local: boolean): void => {
               task: () =>
                 got(local ? api.defaultLocalUrl : api.defaultUrl).then((data: any) => {
                   const currentSwaggerGenJson = readFileSync(api.openapiGen, 'utf8');
-                  const swaggerPath = JSON.parse(currentSwaggerGenJson).swagger;
+                  const swaggerPath = JSON.parse(currentSwaggerGenJson).input;
                   writeFileSync(swaggerPath, data.body);
                 }),
             },

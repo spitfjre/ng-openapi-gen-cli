@@ -1,6 +1,6 @@
 {
   "name": "ng-openapi-gen-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Maximilian Aulbach",
   "description": "A CLI tool for openapi 3.0 codegen for Angular",

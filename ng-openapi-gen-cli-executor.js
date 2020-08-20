@@ -42,7 +42,7 @@ var update = function (apis, local) {
                 task: function () {
                   return got_1.default(local ? api.defaultLocalUrl : api.defaultUrl).then(function (data) {
                     var currentSwaggerGenJson = fs_1.readFileSync(api.openapiGen, 'utf8');
-                    var swaggerPath = JSON.parse(currentSwaggerGenJson).swagger;
+                    var swaggerPath = JSON.parse(currentSwaggerGenJson).input;
                     fs_1.writeFileSync(swaggerPath, data.body);
                   });
                 },
