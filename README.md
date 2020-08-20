@@ -59,7 +59,7 @@ The following is an example of a configuration file:
   "configurations": [
     {
       "defaultLocalUrl": "http://localhost:8080",
-      "defaultUrl": "http://url/to/openapi/v2/api-docs",
+      "defaultUrl": "http://url/to/openapi/v3/api-docs",
       "name": "auth",
       "openapiGen": "./path/to/ng-openapi-gen/file.json"
     }
